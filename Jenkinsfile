@@ -6,7 +6,7 @@ pipeline {
                 echo 'Stage Init!' 
             }
         }
-        stage('Build'{
+        stage('Build') {
             steps {
                 echo 'Stage Build!'
             }
